@@ -1,0 +1,7 @@
+Next: 
+1.Delete units {Done}
+2.Land Ownership (not sure if necessary) {Done}
+3.Moving{Done}
+4.Attacking (with flanking) {Done, but kinda shady. Method should be moved to the Class_BoardSquare Script, and split into multiple parts.}
+big jump
+5.Add in turn system (villager reproduction, resource collection, movement tokens)

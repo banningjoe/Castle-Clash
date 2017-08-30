@@ -1,0 +1,62 @@
+{
+  "grid": [
+    {
+      "name": "Square_00",
+      "number": 0,
+      "type": "Castle",
+      "intNeighbours": [1,3]
+    },
+    {
+      "name": "Square_01",
+      "number": 1,
+      "type": "Field",
+      "intNeighbours": [0,2,4]
+    },
+    {
+      "name": "Square_02",
+      "number": 2,
+      "type": "Castle",
+      "intNeighbours": [ 1, 5 ]
+    },
+    {
+      "name": "Square_03",
+      "number": 3,
+      "type": "Field",
+      "intNeighbours": [ 0, 4, 6 ]
+    },
+    {
+      "name": "Square_04",
+      "number": 4,
+      "type": "Castle",
+      "intNeighbours": [ 1, 3, 5, 7 ]
+    },
+    {
+      "name": "Square_05",
+      "number": 5,
+      "type": "Field",
+      "intNeighbours": [ 2, 4, 8 ]
+    },
+    {
+      "name": "Square_06",
+      "number": 6,
+      "type": "Castle",
+      "intNeighbours": [ 3, 7 ]
+    },
+    {
+      "name": "Square_07",
+      "number": 7,
+      "type": "Field",
+      "intNeighbours": [ 4, 6, 8 ]
+    },
+    {
+      "name": "Square_08",
+      "number": 8,
+      "type": "Castle",
+      "intNeighbours": [ 5, 8 ]
+    }
+  ]
+}
+
+
+
+
