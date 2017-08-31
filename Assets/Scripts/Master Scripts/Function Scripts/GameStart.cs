@@ -10,17 +10,6 @@ public class GameStart : MonoBehaviour {
         board = gameObject.GetComponent<JsonReader>().LoadMap();//load in board with no units
         settings = gameObject.GetComponent<JsonReader>().LoadSettings();//load in settings that accompany board
         setStartLocations();
-        //board.AddUnits(settings.p1StartLocation, true, 1, settings.startUnits);//Add to p1 (true)
-        //board.AddUnits(settings.p2StartLocation, true, 2, settings.startUnits);//Add to p2 (false)
-        board.AddUnits(board.grid[4], true, 2, settings.startUnits);
-        board.AddUnits(board.grid[1], true, 1, settings.startUnits);
-        board.AddUnits(board.grid[3], true, 1, settings.startUnits);
-        board.AddUnits(board.grid[5], true, 1, settings.startUnits);
-        board.AddUnits(board.grid[7], true, 1, settings.startUnits);
-        board.SetOwner();
-        board.Attack(board.grid[4], board.grid[4].boardSquareNeighbours);
-        ShowBoard();
-
     }
     void setStartLocations()
     {

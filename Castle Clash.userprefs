@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Json_Reader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Master Scripts\Class Scripts\Class_Unit.cs">
     <Files>
-      <File FileName="Assets\Scripts\Json_Reader.cs" Line="35" Column="58" />
-      <File FileName="Assets\Scripts\Add_Units.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Master Scripts\Function Scripts\GameStart.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Master Scripts\Class Scripts\Class_BoardSquare.cs" Line="17" Column="9" />
+      <File FileName="Assets\Scripts\Master Scripts\Class Scripts\Class_Unit.cs" Line="17" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

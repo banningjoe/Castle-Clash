@@ -9,11 +9,11 @@ public class Class_BoardSquare : MonoBehaviour {
     {
         public string name;
         public int number;
-        public string type;
+        public string type; // convert this to enum type maybe
         public int[] intNeighbours;
         public BoardSquare[] boardSquareNeighbours;
         public Dictionary<bool,List<Class_Unit.Unit>> units = new Dictionary<bool, List<Class_Unit.Unit>>();
-        public int owner;
+        public int owner; // convert this to enum type
         
        public string ToString()
         {
